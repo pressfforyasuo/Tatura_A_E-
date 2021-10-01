@@ -8,6 +8,6 @@ void main(){
     input .add(int.parse(element));
   });
 
-  print(input[0]*input[0] + input[1]*input[1]);
+  print(input[0] + input[1]);
 
 }
