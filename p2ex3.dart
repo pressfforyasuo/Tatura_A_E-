@@ -3,7 +3,6 @@ import 'dart:io';
 void main(){
 
   List<int> input = [];
-  input.add(-999);
 
   stdin.readLineSync()!.split(' ').forEach((element) {
     input .add(int.parse(element));
