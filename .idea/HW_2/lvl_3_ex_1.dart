@@ -2,8 +2,7 @@ import 'dart:io';
 
 
 void main(){
-  var n = stdin.readLineSync().toString();
-  var a=int.parse(n);
+  var a = int.parse(stdin.readLineSync().toString());
   var fib = [];
 
   fib.add(0); fib.add(1);
